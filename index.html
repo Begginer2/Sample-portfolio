@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!--logo <img src=.....-->
+                <h1><span class="highlight">M</span>adhu .</h1>
+                <ul id="sidemenu"><!--sidemenu-->
+                    <li><a href="#header">Home</a></li><!--to navigate within the website  by using id ="#webpage name"-->
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <!--NEED TO TIMES MEANS CLOSE ICON-->
+                    <p onclick="closemenu()">close</p>
+                </ul>
+                <!--NEED TO ADD MENU ICON FROM WEBSITE-->
+                <p onclick="openmenu()">Menu</p><!--giving openmenu() and  closemenu() functions-->
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <span>Madhavi</span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <!---about---->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="nature.jpg" width="400px" height="400px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                        dummy text ever since the 1500s .It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like 
+                         Aldus PageMaker including versions of Lorem Ipsum</p>
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('expercience')">Expercience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Desinging web/App Application</li>
+                                <li><span>Web development</span><br>Desinging websites</li>
+                                <li><span>programming</span><br>Software developing</li>
+                                
+
+                            </ul>
+                         </div>
+                         <div class="tab-content" id="expercience">
+                            <ul>
+                                <li><span>2021-current</span><br>UI?UX desinging at ABC company</li>
+                                <li><span>2019-2021</span><br>Team leadt at WE company</li>
+                                <li><span>2017-2019</span><br> UI?UX design exective at some company</li>
+                                <li><span>2016-2017</span><br> internship on e-commerce</li>
+
+                            </ul>
+                         </div>
+                         <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>2016</span><br>MCA from ABC University</li>
+                                <li><span>2015</span><br>graduate from XYZ University</li>
+                                <li><span>2014</span> intermediate from college<br></li>
+                                
+
+                            </ul>
+                         </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+        <!----services------>  
+        <div id="services">
+            <div class="container">
+                <h2 class="sub-title">My Services</h2>
+                <div class="services-list">
+                    <div>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum tenetur deserunt delectus iusto reiciendis 
+                            debitis cupiditate ad quam impedit consequatur!Nesciunt consectetur tenetur alias 
+                            inventore explicabo nemo illum ad exercitationem.</p>
+                            <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <!--icons i need to add-->
+                        <h2>UI/UX design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum tenetur deserunt delectus iusto reiciendis 
+                            debitis cupiditate ad quam impedit consequatur!Nesciunt consectetur tenetur alias 
+                            inventore explicabo nemo illum ad exercitationem.</p>
+                            <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <h2>Web development</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum tenetur deserunt delectus iusto reiciendis 
+                            debitis cupiditate ad quam impedit consequatur!Nesciunt consectetur tenetur alias 
+                            inventore explicabo nemo illum ad exercitationem.</p>
+                            <a href="#">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!--My work or protfolio--> 
+       <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My work</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="graphic.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quidem provident tempore 
+                            totam harum optio animi atque molestias aspernatur.</p>
+                            <a href="#">icon</a><!--icon i need to add-->
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="graphic.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quidem provident tempore 
+                            totam harum optio animi atque molestias aspernatur.</p>
+                            <a href="#">icon</a><!--icon i need to add-->
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="graphic.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quidem provident tempore 
+                            totam harum optio animi atque molestias aspernatur.</p>
+                            <a href="#">icon</a><!--icon i need to add-->
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">see more</a>    
+        </div>
+     </div>
+     <!-------contact ------->
+     <div id="contact">
+        <div class="container">
+            <!--add into in two columns-->
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <!-- icons need to add for email and ph infront of p tag-->
+                    <p>contact@example.com</p>
+                    <p>1234567890</p>
+                  <!-------LINKS FOE ICONS NEED TO ADD--> 
+                     <div class="social-icons">
+                        <a href="https://facebook.com" ><i class="fab fa-facebook"></i>FB</a>
+                        <a href="https://facebook.com" ><i class="fab fa-twitter-square">TW</i></a>
+                        <a href="https:/facebook.com" ><i class="fab fa-instagram"></i>Inst</a>
+                        <a href="https://facebook.com"><i class="fab fa-linkedin"></i>Link</a>
+                    </div>
+                    <a href="cv.txt" download class="btn btn2">Download CV</a><!--cv pdf i need to attach-->
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required><!--by using require we popup box try to submit without filling-->
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name ="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button><!--if we give same class name which used previously ,
+                        the submit btn is styled automatically without css-->
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright &COPY; Madhu.Made with <span style="color: red;">&hearts;</span> love .Please contact me </p>
+            </div>
+        </div>
+     </div>
+
+
+
+       <script>
+        // about section- click and close opration 
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent1 of tabcontents){
+                tabcontent1.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }    
+    </script>
+    <script>
+        var sidebtn=document.getElementById("sidemenu");
+        function openmenu(){
+            sidebtn.style.right="0";//right=0 means menu button visible
+
+        }
+        function closemenu(){
+            sidebtn.style.right="-200px"// not visible
+        }
+
+    </script>
+
+</body>
+</html>
